@@ -1,6 +1,6 @@
-# Code Forge Live - Real-Time Collaborative Code Editor
+# CollabCode - Real-Time Collaborative Code Editor
 
-Code Forge Live is a real-time collaborative code editor that allows multiple users to edit code in the same room. Built using **Next.js, Node.js, Express, and Socket.io**, this project provides a seamless experience for remote pair programming and coding interviews.
+CollabCode Live is a real-time collaborative code editor that allows multiple users to edit code in the same room. Built using **Next.js, Node.js, Express, and Socket.io**, this project provides a seamless experience for remote pair programming and coding interviews.
 
 ## Features
 - ✨ **Real-time collaboration**: Multiple users can edit code simultaneously.
