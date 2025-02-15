@@ -20,12 +20,6 @@ CollabCode Live is a real-time collaborative code editor that allows multiple us
 ### Prerequisites
 Ensure you have **Node.js** and **npm/yarn** installed on your system.
 
-### Clone the repository
-```sh
-git clone https://github.com/Aditya-shou/Code-Forge-Live.git
-cd Code-Forge-Live
-```
-
 ### Install dependencies
 #### Backend Setup
 ```sh
