@@ -1,50 +1,62 @@
-# Code Forge Live (Online Compiler)
+# Real-Time Collaborative Code Editor
 
-Code Forge Live is a collaborative online code Editor built with Next.js, Express.js, Websockets, providing a seamless and real-time coding experience for multiple users.
-
-## Deployment Link 
-- http://3.109.210.144/
-
+A real-time collaborative code editor that allows multiple users to edit code in the same room. Built using **React, Node.js, Express, and Socket.io**, this project provides a seamless experience for remote pair programming and coding interviews.
 
 ## Features
+- ✨ **Real-time collaboration**: Multiple users can edit code simultaneously.
+- 🏠 **Room-based sessions**: Create or join coding rooms with unique room IDs.
+- 🎨 **Syntax highlighting**: Supports multiple programming languages.
+- ⚡ **Fast and lightweight**: Uses WebSockets for instant updates.
+- 🔒 **Secure rooms**: Only users with the room ID can join the session.
+- 🌍 **Cross-platform support**: Works on any modern browser.
 
-- Collaborative Coding: Work on the same code in real-time with multiple users.
-- Backend Integration: Utilizes Express and Node.js for robust backend functionalities.
-- Real-time Communication: Implements WebSockets to enhance the collaborative coding experience.
-- Web Scraping: Incorporates web scraping capabilities to fetch coding questions from various online platforms.
-- REST API: Proficient in REST API utilization for comprehensive project development.
+## Tech Stack
+- **Frontend**: React, CodeMirror for code editing, WebSockets (Socket.io-client)
+- **Backend**: Node.js, Express, Socket.io
+- **Deployment**: Vercel (Frontend), Render/Heroku (Backend)
 
+## Installation
 
-## Technologies
+### Prerequisites
+Ensure you have **Node.js** and **npm/yarn** installed on your system.
 
-- Node.js
-- Next.js
-- Express.js
-- WebSockets
-- TailWind
-- Web Scraping
-
-
-## Getting Started
-
-To get started with Code Forge Live, follow these steps:
-
-### Frontend
-```bash
- Navigate to the `frontend` directory: `cd frontend`
- Install frontend dependencies: `npm install --force`
- Start the frontend development server: `npm run dev -- -p 3005`
- The defult port 3000 is used for backend
+### Clone the repository
+```sh
+git clone https://github.com/sahilatahar/code-sync.git
+cd code-sync
 ```
 
-### Backend
-```bash
- Navigate to the `backend` directory: `cd backend`
- Install backend dependencies: `npm install`
- Start the backend server: `node server.js`
+### Install dependencies
+#### Backend Setup
+```sh
+cd server
+npm install
 ```
 
-    
-## Demo
+#### Frontend Setup
+```sh
+cd ../client
+npm install
+```
 
-🔗 Youtube Link: https://www.youtube.com/watch?v=EfxfG5PH3Ro
+### Run the project
+#### Start the backend server
+```sh
+cd server
+npm run dev
+```
+
+#### Start the frontend
+```sh
+cd ../client
+npm start
+```
+
+### Usage
+1. Open the application in your browser.
+2. Enter a unique **Room ID** to create or join a session.
+3. Share the **Room ID** with collaborators.
+4. Start coding together in real-time!
+
+
+Happy Coding! 🚀
