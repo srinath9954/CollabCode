@@ -1,6 +1,6 @@
-# Real-Time Collaborative Code Editor
+# Code Forge Live - Real-Time Collaborative Code Editor
 
-A real-time collaborative code editor that allows multiple users to edit code in the same room. Built using **React, Node.js, Express, and Socket.io**, this project provides a seamless experience for remote pair programming and coding interviews.
+Code Forge Live is a real-time collaborative code editor that allows multiple users to edit code in the same room. Built using **Next.js, Node.js, Express, and Socket.io**, this project provides a seamless experience for remote pair programming and coding interviews.
 
 ## Features
 - ✨ **Real-time collaboration**: Multiple users can edit code simultaneously.
@@ -9,11 +9,11 @@ A real-time collaborative code editor that allows multiple users to edit code in
 - ⚡ **Fast and lightweight**: Uses WebSockets for instant updates.
 - 🔒 **Secure rooms**: Only users with the room ID can join the session.
 - 🌍 **Cross-platform support**: Works on any modern browser.
+- 🚀 **Next.js-powered performance**: Optimized frontend with server-side rendering.
 
 ## Tech Stack
-- **Frontend**: React, CodeMirror for code editing, WebSockets (Socket.io-client)
+- **Frontend**: Next.js, CodeMirror for code editing, WebSockets (Socket.io-client)
 - **Backend**: Node.js, Express, Socket.io
-- **Deployment**: Vercel (Frontend), Render/Heroku (Backend)
 
 ## Installation
 
@@ -22,8 +22,8 @@ Ensure you have **Node.js** and **npm/yarn** installed on your system.
 
 ### Clone the repository
 ```sh
-git clone https://github.com/sahilatahar/code-sync.git
-cd code-sync
+git clone https://github.com/Aditya-shou/Code-Forge-Live.git
+cd Code-Forge-Live
 ```
 
 ### Install dependencies
@@ -43,13 +43,13 @@ npm install
 #### Start the backend server
 ```sh
 cd server
-npm run dev
+node server.js
 ```
 
 #### Start the frontend
 ```sh
 cd ../client
-npm start
+npm run dev
 ```
 
 ### Usage
@@ -58,5 +58,7 @@ npm start
 3. Share the **Room ID** with collaborators.
 4. Start coding together in real-time!
 
+
+---
 
 Happy Coding! 🚀
